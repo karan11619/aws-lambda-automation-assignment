@@ -63,7 +63,7 @@ Uploaded files:
 -   test3.txt
 
 > **📸 Screenshot 1:** Replace with **S3 Bucket Before Cleanup**
-![alt text](<Screenshot 2026-07-21 113920.png>)
+![alt text](screenshot/01-S3-Bucket.png)
 ------------------------------------------------------------------------
 
 ## Step 2 -- Create IAM Role
@@ -78,7 +78,7 @@ Added least-privilege inline policy:
 -   `s3:DeleteObject`
 
 > **📸 Screenshot 2:** Replace with **IAM Role & Inline Policy**
-![alt text](<Screenshot 2026-07-21 120008.png>)
+![alt text](screenshot/02-IAM-Role.png)
 ------------------------------------------------------------------------
 
 ## Step 3 -- Create Lambda Function
@@ -93,7 +93,7 @@ Configuration:
   Execution Role   LambdaS3CleanupRole
 
 > **📸 Screenshot 3:** Replace with **Lambda Configuration**
-![alt text](<Screenshot 2026-07-21 115145.png>)
+![alt text](screenshot/03-Lambda-Configuration.png)
 ------------------------------------------------------------------------
 
 ## Step 4 -- Lambda Logic
@@ -134,7 +134,7 @@ Output:
 ```
 
 > **📸 Screenshot 4:** Replace with **Lambda Test Output**
-
+![alt text](screenshot/04-Lambda-Test.png)
 ------------------------------------------------------------------------
 
 # EventBridge Scheduler
@@ -148,7 +148,7 @@ Output:
   State           Enabled
 
 > **📸 Screenshot 5:** Replace with **EventBridge Scheduler**
-
+![alt text](screenshot/05-EventBridge.png)
 ------------------------------------------------------------------------
 
 # CloudWatch Logs
@@ -164,7 +164,7 @@ END RequestId...
 REPORT RequestId...
 ```
 
-> **📸 Screenshot 6:** Replace with **CloudWatch Logs**
+
 
 ------------------------------------------------------------------------
 
@@ -176,7 +176,7 @@ REPORT RequestId...
 -   EventBridge Scheduler can invoke the function automatically.
 
 > **📸 Screenshot 7:** Replace with **S3 Bucket After Cleanup**
-
+![alt text](screenshot/06-Final-Result.png)
 ------------------------------------------------------------------------
 
 # Discussion

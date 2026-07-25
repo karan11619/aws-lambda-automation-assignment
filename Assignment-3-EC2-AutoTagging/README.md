@@ -89,7 +89,7 @@ AWSLambdaBasicExecutionRole
 ```
 
 **Screenshot:** `01-IAM-Role.png`
-
+![alt text](screenshot/01-IAM-Role.png)
 ---
 
 ## Step 2 – Create Lambda Function
@@ -104,7 +104,7 @@ Created a Lambda function.
 | Execution Role | LambdaEC2AutoTagRole |
 
 **Screenshot:** `02-Lambda-Configuration.png`
-
+![alt text](screenshot/02-Lambda-Configuration.png)
 ---
 
 ## Step 3 – Lambda Function
@@ -156,7 +156,7 @@ Lambda Function → EC2AutoTagger
 ```
 
 **Screenshot:** `03-EventBridge-Rule.png`
-
+![alt text](screenshot/03-EventBridge-Rule.png)
 ---
 
 ## Step 5 – Test the Solution
@@ -189,7 +189,7 @@ Verified the tags from the EC2 Console.
 **Result:** Automatic tagging completed successfully.
 
 **Screenshot:** `04-EC2-Tags.png`
-
+![alt text](screenshot/04-EC2-Tags.png)
 ---
 
 # CloudWatch Logs
@@ -221,7 +221,7 @@ REPORT RequestId: xxxxxxxxx
 ```
 
 **Screenshot:** `05-CloudWatch-Logs.png`
-
+![alt text](screenshot/05-CloudWatch-Logs.png)
 ---
 
 # Final Result

@@ -78,7 +78,7 @@ vol-xxxxxxxxxxxxxxxxx
 ```
 
 > 📸 **Screenshot 2:** EBS Volume Details
-
+![alt text](screenshot/02-EBS-Volume.png)
 ---
 
 ## Step 3 – Create IAM Role
@@ -102,7 +102,7 @@ Also attached:
 - AWSLambdaBasicExecutionRole
 
 > 📸 **Screenshot 3:** IAM Role & Policies
-
+![alt text](screenshot/03-IAM-Role.png)
 ---
 
 ## Step 4 – Create Lambda Function
@@ -117,7 +117,7 @@ Configuration
 | Execution Role | LambdaEBSSnapshotRole |
 
 > 📸 **Screenshot 4:** Lambda Configuration
-
+![alt text](screenshot/04-Lambda-Configuration.png)
 ---
 
 ## Step 5 – Lambda Function Logic
@@ -168,7 +168,7 @@ Example Output
 After waiting for the configured retention period, older snapshots were deleted successfully.
 
 > 📸 **Screenshot 5:** Lambda Test Output
-
+![alt text](screenshot/05-Lambda-Test.png)
 ---
 
 # Snapshot Verification
@@ -182,7 +182,7 @@ CreatedBy = Lambda-Backup
 ```
 
 > 📸 **Screenshot 6:** Snapshot List
-
+![alt text](screenshot/06-Snapshot-List.png)
 ---
 
 # EventBridge Scheduler
@@ -200,7 +200,7 @@ Configured EventBridge Scheduler to automatically execute the Lambda function.
 For production, the schedule can be updated to execute weekly.
 
 > 📸 **Screenshot 7:** EventBridge Scheduler
-
+![alt text](screenshot/07-EventBridge.png)
 ---
 
 # CloudWatch Logs
@@ -224,7 +224,7 @@ REPORT RequestId...
 ```
 
 > 📸 **Screenshot 8:** CloudWatch Logs
-
+![alt text](screenshot/08-CloudWatch-Logs.png)
 ---
 
 # Final Result
